@@ -1,0 +1,4 @@
+#Wed Aug 21 00:13:13 PKT 2019
+base.0=C\:\\Users\\Saad amjad\\Desktop\\OfficeWork\\DoctorApp - Copy\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
