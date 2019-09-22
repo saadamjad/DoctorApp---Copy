@@ -9,6 +9,7 @@ import Calls from './Whatsapp/Calls'
 import facebookHome from './Whatsapp/FacebookHome'
 import {Provider} from 'react-redux'
 import store from '../saadRedux/store/store'
+import GoogleMap from './GoogleMap'
 
 
 const AppNavigator = createStackNavigator(  
@@ -57,11 +58,17 @@ const AppNavigator = createStackNavigator(
           header:null
         })
     },
+    GoogleMap :{
+      screen : GoogleMap,
+      navigationOptions: () => ({
+          header:null
+        })
+    },
     
     
     },
     {
-      initialRouteName: 'ObjCamera'
+      initialRouteName: 'GoogleMap'
     }
   );
 
